@@ -232,6 +232,48 @@ Install via [Altstore](https://altstore.io) or your favorite sideloading utility
 
 [![Made with React](https://img.shields.io/badge/React-19-blue?logo=react)](https://reactjs.org) [![React Native](https://img.shields.io/badge/React-Native-079?logo=react)](https://reactnative.dev) [![Made with TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript&logoColor=white)](https://typescriptlang.org) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![GitHub License](https://img.shields.io/github/license/anultravioletaurora/jellify?color=indigo)](https://github.com/anultravioletaurora/jellify/blob/main/LICENSE)
 
+## Run locally
+
+These are minimal steps to get the project running for local development. This repository is a React Native app — follow the platform-specific steps below.
+
+Requirements
+- Node.js >= 18
+- Yarn (recommended) or npm
+- For iOS builds: macOS with Xcode and CocoaPods
+- For Android builds: Android Studio / SDK
+
+Quick start (PowerShell)
+
+```powershell
+# install dependencies (yarn is recommended)
+yarn install
+
+# iOS (macOS only) - install CocoaPods
+cd ios; bundle install || echo "bundle not installed"; pod install; cd ..
+
+# start Metro bundler
+yarn start
+
+# in another terminal: run app on Android or iOS simulator/device
+yarn android
+# or
+yarn ios
+```
+
+If you don't have Yarn installed, use npm:
+
+```powershell
+npm install
+npm run start
+npm run android
+npm run ios
+```
+
+Notes
+- The repository uses `patch-package` as a `postinstall` step; keep that in mind during installs.
+- If you encounter native build issues, make sure your Xcode/Android SDK and related tooling are up to date.
+- This README contains a short fork attribution and some badge links updated to point at this repository.
+
 ### Frontend
 
 [Tamagui](https://tamagui.dev/)\
