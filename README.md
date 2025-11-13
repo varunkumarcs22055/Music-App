@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt='Jellify logo' src='assets/transparent-banner.png' width="600" height="300" />
+  <img alt='Music App logo' src='assets/transparent-banner.png' width="600" height="300" />
 </p>
 
 <p align="center">Forked and customized by <strong>@varunkumarcs22055</strong>. Original project: <em>Jellify</em>.</p>
@@ -30,14 +30,11 @@
 
 ## Info
 
-> **jellify** (verb) - _to make gelatinous_ <br>
-> [see also](https://www.merriam-webster.com/dictionary/jellify)
+Music App is an open source music player designed to work with the Jellyfin Media Server (https://jellyfin.org/).
 
-_Jellify_ is a free and open source music player for the [Jellyfin Media Server](https://jellyfin.org/). Built with [React Native](https://reactnative.dev/), it is available for both iOS and Android.
+Built with React Native, Music App focuses on a clean and responsive UI, offline playback, and performance for large libraries. It requires a connection to a Jellyfin server to access your media (see https://jellyfin.org/docs/ for server setup).
 
-> _Jellify_ requires a connection to a [Jellyfin Media Server](https://jellyfin.org/) server to work. [See also](https://jellyfin.org/docs/)
-
-Showcasing the artwork of your library, it has a user interface congruent to what _the big guys_ do. _Jellify_ also provides algorithmic curation of your music (not that you have to use _Jellify_ that way). It's designed to be lightweight, and scale to even the largest of music libraries (...like 100K tracks large).
+The app showcases artwork from your library, offers playlist management, offline listening, OTA updates, and features aimed at a pleasant listening experience on mobile devices.
 
 ### Background
 
@@ -45,7 +42,7 @@ This app was designed with me and my dad in mind. I wanted us to have a sleek, o
 
 ### Recommended Additions
 
-These projects are **not** required to use _Jellify_, but are recommended by us to enrich your Jellyfin music experience!
+These projects are **not** required to use Music App, but are recommended to enrich your Jellyfin music experience!
 
 - [Apple Music Plugin](https://github.com/lyarenei/jellyfin-plugin-itunes)
   - Really good at fetching missing artist artwork for obscure / less popular artists
@@ -68,11 +65,11 @@ These projects are **not** required to use _Jellify_, but are recommended by us 
 
 ### Android
 
-Head to [releases](https://github.com/Jellify-Music/App/releases) to download the required .APK directly.
+Head to [releases](https://github.com/varunkumarcs22055/Music-App/releases) to download the required .APK directly.
 
 Also there is [obtanium](https://github.com/ImranR98/Obtainium) to which you can add Jellify as a repo to use the above releases as a repository.
 
-For Obtanium, click "Add App", put "https://github.com/Jellify-Music/App" as the source URL, and on the next screen toggle "prereleases". You'll now be easily able to keep your local copy in sync with new releases.
+For Obtanium, click "Add App", put "https://github.com/varunkumarcs22055/Music-App" as the source URL, and on the next screen toggle "prereleases". You'll now be easily able to keep your local copy in sync with new releases.
 
 ### iOS
 
@@ -82,7 +79,7 @@ Join the [TestFlight](https://testflight.apple.com/join/etVSc7ZQ) and install th
 
 #### The Sideloading Way
 
-Head to [releases](https://github.com/Jellify-Music/App/releases) to download the required .IPA directly.
+Head to [releases](https://github.com/varunkumarcs22055/Music-App/releases) to download the required .IPA directly.
 
 Install via [Altstore](https://altstore.io) or your favorite sideloading utility
 
@@ -175,7 +172,7 @@ Install via [Altstore](https://altstore.io) or your favorite sideloading utility
 ### Current
 
 - Available via Testflight and Android APK
-  - APKs are associated with each [release](https://github.com/anultravioletaurora/Jellify/releases)
+  - APKs are associated with each [release](https://github.com/varunkumarcs22055/Music-App/releases)
 - Light and Dark modes
 - Home screen access to previously played tracks, artists, and your playlists
 - Quick access to similar artists and items for discovering music in your library
@@ -185,7 +182,7 @@ Install via [Altstore](https://altstore.io) or your favorite sideloading utility
 - Offline Playback
 - Support for Jellyfin Instant Mixes
 - Over-the-Air Updates
-  - Powered by [react-native-nitro-ota](https://github.com/riteshshukla04/react-native-nitro-ota), incremental app updates are automatically fetched and applied from our [App Bundles Repository](https://github.com/Jellify-Music/App-Bundles)
+  - Powered by [react-native-nitro-ota](https://github.com/riteshshukla04/react-native-nitro-ota). Incremental app updates can be hosted from a separate App Bundles repository; configure that in your deployment setup.
 - Shuffling
 - Switching Music Libraries
 - Google Cast Support
@@ -230,7 +227,7 @@ Install via [Altstore](https://altstore.io) or your favorite sideloading utility
 
 ## Built with Good Stuff
 
-[![Made with React](https://img.shields.io/badge/React-19-blue?logo=react)](https://reactjs.org) [![React Native](https://img.shields.io/badge/React-Native-079?logo=react)](https://reactnative.dev) [![Made with TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript&logoColor=white)](https://typescriptlang.org) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![GitHub License](https://img.shields.io/github/license/anultravioletaurora/jellify?color=indigo)](https://github.com/anultravioletaurora/jellify/blob/main/LICENSE)
+[![Made with React](https://img.shields.io/badge/React-19-blue?logo=react)](https://reactjs.org) [![React Native](https://img.shields.io/badge/React-Native-079?logo=react)](https://reactnative.dev) [![Made with TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript&logoColor=white)](https://typescriptlang.org) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier) [![GitHub License](https://img.shields.io/github/license/varunkumarcs22055/Music-App?color=indigo)](https://github.com/varunkumarcs22055/Music-App/blob/main/LICENSE)
 
 ## Run locally
 
@@ -304,23 +301,23 @@ Notes
 
 ### Opt-In Monitoring
 
-All logging and metrics gathering is _opt-in_ __by default__. This is merely here to help us make _Jellify_ better. 
+All logging and metrics gathering is _opt-in_ __by default__. This is merely here to help us make Music App better. 
 
 All logs and metrics are completely anonymized. No data can be traced back to you.
 
 [GlitchTip](https://glitchtip.com/)
 
-- [See logging statements](https://github.com/search?q=repo%3AJellify-Music%2FApp+console.&type=code&p=1)
+- [See logging statements](https://github.com/search?q=repo%3Avarunkumarcs22055%2FMusic-App+console.&type=code&p=1)
 
 [TelemetryDeck](https://telemetrydeck.com)
 
 ### Love from Wisconsin 🧀
 
-This is undoubtedly a passion project of [mine](https://github.com/anultravioletaurora), and I've learned a lot from working on it (and the many failed attempts before it). I hope you enjoy using it! Feature requests and bug reports are welcome :)
+This is a passion project of [mine](https://github.com/varunkumarcs22055). I hope you enjoy using it! Feature requests and bug reports are welcome :)
 
 ## Support the Project
 
-You can support _Jellify_ development via [Patreon](https://patreon.com/anultravioletaurora?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink) or [GitHub Sponsors](https://github.com/sponsors/anultravioletaurora) starting at $1.
+You can support Music App development via [Patreon](https://patreon.com/varunkumarcs22055) or [GitHub Sponsors](https://github.com/sponsors/varunkumarcs22055) starting at $1.
 
 Paid supporters will be recognized by having their name displayed within the Settings.
 
@@ -331,11 +328,11 @@ Paid supporters will be recognized by having their name displayed within the Set
     - They taught me the ways of the AudioAPI and how to do audio transcoding with Jellyfin
 - [James](https://github.com/jmshrv), [Chaphasilor](https://github.com/Chaphasilor) and all other contributors of [Finamp](https://github.com/jmshrv/finamp) - another music app for Jellyfin
   - James’ [API Blog Post](https://jmshrv.com/posts/jellyfin-api/) proved to be exceptionally valuable during development
-  - Chaphasilor taught me everything they know about audio normalization and LUFS, and their math was referenced in _Jellify_'s audio normalization algorithm
+  - Chaphasilor taught me everything they know about audio normalization and LUFS, and their math was referenced in Music App's audio normalization algorithm
 - Marc and the rest of the [Margelo Community](https://discord.com/invite/6CSHz2qAvA) for their amazing modules and support
 - [Nicolas Charpentier](https://github.com/charpeni) for his [React Native URL Polyfill](https://github.com/charpeni/react-native-url-polyfill) module and for his assistance with getting Jest working
 - The team behind [Podverse](https://github.com/podverse/podverse-rn) for their incredible open source project, of which was used as a reference extensively during development
-- My fellow [contributors](https://github.com/anultravioletaurora/Jellify/graphs/contributors) who have poured so much heart and a lot of sweat into making _Jellify_ a great experience
+- My fellow [contributors](https://github.com/varunkumarcs22055/Music-App/graphs/contributors) who have poured so much heart and a lot of sweat into making Music App a great experience
   - Extra thanks to [John](https://github.com/johngrantdev), [Vali-98](https://github.com/Vali-98), and [Erik](https://github.com/felinusfish) for shaping and designing the user experience
   - Shout out to [skalthoff](https://github.com/skalthoff) for championing many features:
     - Gapless Playback
@@ -345,19 +342,19 @@ Paid supporters will be recognized by having their name displayed within the Set
   - Huge thank you to [Ritesh](https://github.com/riteshshukla04) for literally so many things:
     - Over-the-Air Updates
     - Cast Support
-- The friends we made along the way that have been critical in fostering an amazing community around _Jellify_
+- The friends we made along the way that have been critical in fostering an amazing community around Music App
   - [Thalia](https://github.com/thaliadavar)
   - [BotBlake](https://github.com/BotBlake)
   - [Neptune1987](https://github.com/NeptuneHub)
-- My long time friends that have heard me talk about _Jellify_ for literally **eons**. Thank you for testing _Jellify_ during it's infancy and for supporting me all the way back at the beginning of this project
+- My long time friends that have heard me talk about Music App for literally **eons**. Thank you for testing Music App during its infancy and for supporting me all the way back at the beginning of this project
   - Tony (iOS, Android)
   - Trevor (Android)
   - [Laine](https://github.com/lainie-ftw) (Android)
   - [Jordan](https://github.com/jordanbleu) (iOS)
-- My best(est) friend [Alyssa](https://www.instagram.com/uhh.lyssarae?igsh=MTRmczExempnbjBwZw==), for your design knowledge and for making various artwork for _Jellify_.
-  - You’ve been instrumental in shaping it’s user experience, my rock during development, and an overall inspiration in my life
+- My best(est) friend [Alyssa](https://www.instagram.com/uhh.lyssarae?igsh=MTRmczExempnbjBwZw==), for your design knowledge and for making various artwork for Music App.
+  - You’ve been instrumental in shaping its user experience, my rock during development, and an overall inspiration in my life
 
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=anultravioletaurora/Jellify,Jellify-Music/App&type=Date)](https://www.star-history.com/#anultravioletaurora/Jellify&Jellify-Music/App&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=varunkumarcs22055/Music-App&type=Date)](https://www.star-history.com/#varunkumarcs22055/Music-App&Date)
