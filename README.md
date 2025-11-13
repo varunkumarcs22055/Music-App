@@ -2,7 +2,7 @@
   <img alt='Music App logo' src='assets/transparent-banner.png' width="600" height="300" />
 </p>
 
-<p align="center">Forked and customized by <strong>@varunkumarcs22055</strong>. Original project: <em>Jellify</em>.</p>
+<p align="center">Forked and customized by <strong>@varunkumarcs22055</strong>. Original project: <em>Jellify</em> (renamed and customized here as <strong>Music App</strong>).</p>
 
 
 [![Latest Version](https://img.shields.io/github/package-json/version/varunkumarcs22055/Music-App?label=Latest%20Version&color=indigo)](https://github.com/varunkumarcs22055/Music-App/releases)
@@ -67,7 +67,7 @@ These projects are **not** required to use Music App, but are recommended to enr
 
 Head to [releases](https://github.com/varunkumarcs22055/Music-App/releases) to download the required .APK directly.
 
-Also there is [obtanium](https://github.com/ImranR98/Obtainium) to which you can add Jellify as a repo to use the above releases as a repository.
+Also there is [obtanium](https://github.com/ImranR98/Obtainium) to which you can add this repository (Music App) as a source to use the above releases as a repository.
 
 For Obtanium, click "Add App", put "https://github.com/varunkumarcs22055/Music-App" as the source URL, and on the next screen toggle "prereleases". You'll now be easily able to keep your local copy in sync with new releases.
 
@@ -86,85 +86,9 @@ Install via [Altstore](https://altstore.io) or your favorite sideloading utility
 
 ## Screenshots
 
-*Screenshots taken on iPhone 15 Pro Max*
+Screenshots have been removed from this fork to keep the repository lightweight. You can still view release artifacts (APKs/IPAs) and their screenshots from the Releases page: https://github.com/varunkumarcs22055/Music-App/releases
 
----
-
-### Home
-
-<p align="center">
-  <img src="screenshots/home.png" alt="Jellify Home" width="275" height="600">
-</p>
-
----
-
-### Library
-
-**Artists**
-
-<p align="center">
-  <img src="screenshots/library_artists.png" alt="Library Artists" width="275" height="600">
-</p>
-
-**Downloaded Tracks**
-
-<p align="center">
-  <img src="screenshots/library_downloaded_tracks.PNG" alt="Library Tracks" width="275" height="600">
-</p>
-
-**Artist View**
-
-<p align="center">
-  <img src="screenshots/artist.png" alt="Artist" width="275" height="600">
-</p>
-
-**Similar Artists**
-
-<p align="center">
-  <img src="screenshots/artist_similarto.png" alt="Similar Artists" width="275" height="600">
-</p>
-
-**Album Views**
-
-<p align="center">
-  <img src="screenshots/album.png" alt="Album" width="275" height="600">
-  <img src="screenshots/album_multiple_artists.png" alt="MultiArtist Album" width="275" height="600">
-  <img src="screenshots/offline_album.png" alt="Offline Album" width="275" height="600">
-</p>
-
-**Track Options & Add to Playlist**
-
-<p align="center">
-  <img src="screenshots/track_options.png" alt="Track Options" width="275" height="600">
-  <img src="screenshots/playlist.png" alt="Playlist" width="275" height="600">
-</p>
-
----
-
-### Search
-
-<p align="center">
-  <img src="screenshots/search.png" alt="Search" width="275" height="600">
-</p>
-
----
-
-### Player
-
-<p align="center">
-  <img src="screenshots/player.png" alt="Player" width="275" height="600">
-  <img src="screenshots/player_queue.png" alt="Queue" width="275" height="600">
-</p>
-
----
-
-### CarPlay
-
-<p align="center">
-  <img src="screenshots/carplay.gif" alt="CarPlay" width="400" height="250">
-</p>
-
----
+If you'd like the original screenshots restored into this repository, tell me and I will add them back into an `assets/screenshots/` folder and update these references.
 
 
 ## Features
@@ -176,7 +100,7 @@ Install via [Altstore](https://altstore.io) or your favorite sideloading utility
 - Light and Dark modes
 - Home screen access to previously played tracks, artists, and your playlists
 - Quick access to similar artists and items for discovering music in your library
-- Jellyfin playback reporting and [Last.FM Plugin](https://github.com/jesseward/jellyfin-plugin-lastfm) support
+- Music App playback reporting and [Last.FM Plugin](https://github.com/jesseward/jellyfin-plugin-lastfm) support
 - Full Library Browsing
 - Playlist support, including creating, updating, and reordering
 - Offline Playback
