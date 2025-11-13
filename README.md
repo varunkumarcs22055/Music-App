@@ -1,12 +1,16 @@
+<p align="center">Jellify logo</p>
+
 <p align="center">
-  <img alt='Music App logo' src='assets/transparent-banner.png' width="600" height="300" />
+  <img alt='Jellify / Music App logo' src='assets/transparent-banner.png' width="600" height="300" />
 </p>
 
-<p align="center">Forked and customized by <strong>@varunkumarcs22055</strong>. Original project: <em>Jellify</em> (renamed and customized here as <strong>Music App</strong>).</p>
+<p align="center">Forked and customized by <strong>@varunkumarcs22055</strong>. Original project: <em>Jellify</em> (also referred to as <strong>Jefi</strong>); this fork is branded here as <strong>Music App</strong>.</p>
 
 
 [![Latest Version](https://img.shields.io/github/package-json/version/varunkumarcs22055/Music-App?label=Latest%20Version&color=indigo)](https://github.com/varunkumarcs22055/Music-App/releases)
 [![publish-beta](https://github.com/varunkumarcs22055/Music-App/actions/workflows/publish-beta.yml/badge.svg?branch=main)](https://github.com/varunkumarcs22055/Music-App/actions/workflows/publish-beta.yml) [![Publish Over-the-Air Update](https://github.com/varunkumarcs22055/Music-App/actions/workflows/publish-ota-update.yml/badge.svg)](https://github.com/varunkumarcs22055/Music-App/actions/workflows/publish-ota-update.yml)
+
+<p align="center"><em>This fork is also known as "Jefi".</em></p>
 
 [![Sponsors](https://img.shields.io/github/sponsors/varunkumarcs22055?label=Project%20Sponsors&color=magenta)](https://github.com/sponsors/varunkumarcs22055) [![Patreon](https://img.shields.io/badge/Patreon-F96854?logo=patreon&logoColor=white)](https://patreon.com/varunkumarcs22055)
 
