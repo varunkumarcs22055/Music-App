@@ -2,10 +2,13 @@
   <img alt='Jellify logo' src='assets/transparent-banner.png' width="600" height="300" />
 </p>
 
-[![Latest Version](https://img.shields.io/github/package-json/version/anultravioletaurora/jellify?label=Latest%20Version&color=indigo)](https://github.com/anultravioletaurora/Jellify/releases)
-[![publish-beta](https://github.com/anultravioletaurora/Jellify/actions/workflows/publish-beta.yml/badge.svg?branch=main)](https://github.com/anultravioletaurora/Jellify/actions/workflows/publish-beta.yml) [![Publish Over-the-Air Update](https://github.com/Jellify-Music/App/actions/workflows/publish-ota-update.yml/badge.svg)](https://github.com/Jellify-Music/App/actions/workflows/publish-ota-update.yml)
+<p align="center">Forked and customized by <strong>@varunkumarcs22055</strong>. Original project: <em>Jellify</em>.</p>
 
-[![Sponsors](https://img.shields.io/github/sponsors/anultravioletaurora?label=Project%20Sponsors&color=magenta)](https://github.com/sponsors/anultravioletaurora) [![Patreon](https://img.shields.io/badge/Patreon-F96854?logo=patreon&logoColor=white)](https://patreon.com/anultravioletaurora?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
+
+[![Latest Version](https://img.shields.io/github/package-json/version/varunkumarcs22055/Music-App?label=Latest%20Version&color=indigo)](https://github.com/varunkumarcs22055/Music-App/releases)
+[![publish-beta](https://github.com/varunkumarcs22055/Music-App/actions/workflows/publish-beta.yml/badge.svg?branch=main)](https://github.com/varunkumarcs22055/Music-App/actions/workflows/publish-beta.yml) [![Publish Over-the-Air Update](https://github.com/varunkumarcs22055/Music-App/actions/workflows/publish-ota-update.yml/badge.svg)](https://github.com/varunkumarcs22055/Music-App/actions/workflows/publish-ota-update.yml)
+
+[![Sponsors](https://img.shields.io/github/sponsors/varunkumarcs22055?label=Project%20Sponsors&color=magenta)](https://github.com/sponsors/varunkumarcs22055) [![Patreon](https://img.shields.io/badge/Patreon-F96854?logo=patreon&logoColor=white)](https://patreon.com/varunkumarcs22055)
 
 
 ## Quick Links

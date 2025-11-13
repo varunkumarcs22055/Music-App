@@ -1,5 +1,5 @@
 {
-  "name": "jellify",
+  "name": "music-app",
   "version": "0.20.3",
   "private": true,
   "scripts": {
@@ -144,4 +144,10 @@
     "node": ">=18"
   },
   "packageManager": "yarn@1.22.22"
+  ,
+  "author": "varunkumarcs22055",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varunkumarcs22055/Music-App.git"
+  }
 }
